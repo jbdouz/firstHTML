@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>the title</title>
+  </head>
+  <body>
+    <h1 class="title">Hello World</h1>
+    <style>
+      .title {
+        color: red;
+      }
+    </style>
+    <button>continue</button>
+    <script>
+      function showFirstScore(scores) {
+        const firstScore = scores[0];
+        const secondScore = scores[1];
+        const thirdScore = scores[2];
+        alert(secondScore);
+      }
+    </script>
+    <button onclick="showFirstScore([85, 90, 74])">Click</button>
+  </body>
+</html>
